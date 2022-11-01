@@ -10,7 +10,7 @@ class Stack:
         return self.top == -1
 
     def is_full(self):
-        # Write code 
+        # Write code here
         return self.top == (self.size-1)
 
     def push(self, data):
